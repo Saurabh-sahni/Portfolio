@@ -1,0 +1,517 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sidenav{
+    background-color: #111418;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+
+    
+}
+.sidenav-conatiner{
+    position: relative;
+}
+.sidenav-profile{
+    position: absolute;
+    top: 5%;
+    text-transform: capitalize;
+    width: 100%;
+    
+}
+.profile-img{
+    width: 130px;
+    height: auto;
+    border: 10px solid  #A851FF;
+    border-radius: 50%;
+}
+.sidenav-profile a{
+    text-decoration: none;
+    color: #FAFAFAE6;
+}
+.sidenav-navbar{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+
+}
+.sidenav-navbar ul li{
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase
+    
+
+}
+.sidenav-social{
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    left: 2rem;
+    
+    
+}
+.sidenav-social ul{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+.sidenav-social ul li{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.sidenav-navbar a, .sidenav-social a{
+    text-decoration: none;
+    color: #FAFAFAE6;
+
+}
+.logo{
+    display: none;
+}
+
+.sidenav-navbar a:hover{
+    color: #A851FF;
+
+}
+.fa-facebook:hover{
+    color: #3B5998;
+}
+
+.fa-instagram:hover{
+    color: #d22e84;
+}
+.fa-twitter:hover{
+    color: #55ACEE;
+}
+.fa-github:hover{
+    color: #b1a7a7;
+}
+
+.sidenav-icons{
+    position: absolute;
+    top: 40vh;
+    left: 5vh;
+    font-size: 2rem;
+    display: none;
+    transform: translate(-50, -50);
+}
+.sidenav-icons .uil{
+    color: #FAFAFAE6;
+}
+.sidenav-icons .uil:hover{
+    color: #A851FF;
+}
+
+/*********************sidenav css end************************************/
+
+
+/* ==================================imgage=========================== */
+.cover-img{
+    margin-left: 200px;
+    position: relative;
+}	
+
+
+#cover{
+    width: 100%;
+    height: 754px;
+    background-size: contain;
+    opacity: .4;
+    
+}
+.cover-img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.cover-img-text .design{
+    
+    text-transform: capitalize;
+    color: #111418;
+}
+.cover-img-text .welcome, .slogan{
+    font-size: 2em;;
+
+}
+.cover-img-text .profession{
+    font-size: 3em;
+}
+/* .slogan{
+
+} */
+
+.hire-me-btn{
+    border: 1px solid #A851FF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 2vh 3vw;
+    font-size: 1.2rem;
+    background-color: #A851FF;
+    color: #fff !important;
+    opacity: .6;
+    cursor: pointer;
+}
+.hire-me-btn:hover{
+    opacity: 1;
+}
+
+
+/***************************coverimg css  end**************************************0*/
+
+
+/****************************main css start**********************************/
+.main{
+    margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #343A40;
+
+}
+.main > section{
+    padding: 4.3rem 0;
+}
+/*------------------------about----------------------*/
+.main-aboutme{
+    background-color: #212529;
+}
+.aboutme-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.main-aboutme-content{
+    margin: 0 3vw;
+    color: #8f9595;
+    display: flex;
+}
+#main-aboutme-name{
+    color: #A851FF;
+}	
+.aboutme-subtitle{
+    color: #fff;
+}
+.main-aboutme .para-one{
+    padding-bottom: 10px;
+}
+.main-aboutme-content .flex-content-1{
+    float: left;
+    width: 65%;
+    
+}
+.main-aboutme-content .flex-content-2{
+    float: left;
+    width: 35%;
+    padding-left: 2vw;
+}
+.main-aboutme-content .flex-content-2 li{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(241 241 241 / 29%);
+    list-style-type: none;
+
+}
+.cv{
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.cv button{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #A851FF;
+    padding: 1rem 2rem;
+    border: 1px solid #A851FF;
+    border-radius: 33.3px;
+    cursor: pointer;
+
+
+}
+.cv button:hover{
+    opacity: .8;
+}
+
+
+
+
+/*------------------------resume----------------------*/
+
+.resume-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.main-resume-content{
+    margin: 0 3vw;
+    color: #8f9595;
+}
+.main-resume-content .subtitle{
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.education{
+    /*border: 4px solid rgba(0, 0, 0, 1);*/
+    padding: 0 2rem 2rem 2rem;
+    width: 100%;
+}
+.education table, th, td {
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    text-align: center;
+    padding: .4rem .7rem;
+
+}
+.education tr > th{
+    color: #A851FF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.education tr td{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.flex-skiils-project{
+    display: flex;
+    justify-content: center;
+}
+.flex-skiils-project .skills{
+    float: left;
+    width: 30%;
+    align-items: center;
+    padding: 0 2rem;
+    list-style-type: none;
+    
+}
+.flex-skiils-project .skills .uil{
+    padding-right: 5px;
+    font-size: 1.4rem;
+    color: #A851FF;
+}
+.flex-skiils-project .projects{
+    float: left;
+    width: 70%;
+    padding: 0 2rem;
+}
+.projects-content .project{
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+
+
+
+/*------------------------contact----------------------*/
+.main-contact{
+    background-color: #212529;
+
+}
+.main-contact-content{
+    margin: 5vh 3vw;
+    color: #8f9595;
+}
+.contact-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.heading-back{
+    font-size: 8rem;
+    text-transform: uppercase;
+    opacity: .1;
+    color: #FFFFFF40;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+}
+.heading-front{
+    position: absolute;
+    align-self: center;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.address-title{
+    color: #fff;
+    text-transform: uppercase;
+}
+.address-icons{
+    list-style-type: none;
+    padding-top: 25px;
+    
+}
+#linkedin{
+    text-decoration: none;	
+    color: #8f9595;
+}
+.address-icons .uil{
+    font-size: 1.4rem;
+    color: #A851FF;
+}
+.flex-address-form{
+    display: flex;
+    
+}
+.flex-address-form .address-content{
+    float: left;
+    width: 35%;
+}
+.flex-address-form .contact-form{
+    float: left;
+    width: 65%;
+    padding-left: 1rem;
+}
+.contact-form .form-subtitle{
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+.contact-form-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10vw; */
+    
+
+}
+.contact-form-content .text{
+    padding: 1rem 1rem 1rem 0;
+    
+}
+
+#text-1{
+    outline: none;
+    padding: .7rem;
+    border: 1px solid #111;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, .3);
+    width: 20vw;
+    color: #fff;
+
+}
+#text-1:focus{
+    border: 3px solid #A851FF;
+}
+#text-description{
+    resize: none;
+    overflow: hidden;
+    padding: .7rem;
+    border: 1px solid #111;  
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, .3);
+    outline: none;
+    color: #fff;
+
+
+}
+#text-description:focus{
+    border: 3px solid #A851FF;
+}
+
+.contact-form .form-submit{
+    padding-left: 15vw;
+
+
+}
+.contact-form .form-submit .submit-button{
+    background-color: #A851FF;
+    padding: 1rem 2.5rem;
+    outline: none;
+    border: 1px solid #A851FF;
+    border-radius: 5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.contact-form .form-submit .submit-button:hover{
+    opacity: .8;
+}
+/*------------------------footer----------------------*/
+.footer{
+    margin: 0 3rem;
+    color: #8f9595;
+}
+
+
+/*------------------------------Media Quries---------------------------*/
+
+@media screen and (max-width: 1107px) {
+    .sidenav{
+        width: 100px;
+    }
+    
+    .sidenav-profile{
+        display: none;
+    }
+    .sidenav-navbar{
+        display: none;
+    }
+    .sidenav-icons{
+        display: block;
+    }
+    .sidenav-social{
+        left: 0;
+        
+    }
+    .sidenav-social ul{
+        flex-direction: column;
+
+    }
+    .sidenav-social ul li{
+        padding: 0;
+        font-size: 20px;
+    }
+    .cover-img{
+        margin-left: 100PX;
+    }
+    .main{
+        margin-left: 100px;
+    } 
+    .logo{
+        display: block;
+        position: absolute;
+        top: 10vh;
+        padding-left: 5px;
+    }
+
+    
+    
+}
+@media screen and (max-width: 895px){
+    #cover{
+        height: auto;
+    }
+    .main-aboutme-content{
+        flex-direction: column;
+        margin: 0 6rem;
+    }
+    .main-aboutme-content .flex-content-1{
+        text-align: center;
+        width: 100%;
+    }.main-aboutme-content .flex-content-1{
+        text-align: center;
+        width: 100%;
+    }
+    .heading-back{
+        font-size: 6rem;
+    }
+    
+    
+}
+
+
+
